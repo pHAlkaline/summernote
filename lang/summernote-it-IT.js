@@ -9,6 +9,8 @@
         height: 'Altezza della linea di testo',
         name: 'Famiglia Font',
         strikethrough: 'Testo barrato',
+        subscript: 'Subscript',
+        superscript: 'Superscript',
         size: 'Dimensione del carattere'
       },
       image: {
@@ -20,8 +22,15 @@
         floatLeft: 'Posiziona a sinistra',
         floatRight: 'Posiziona a destra',
         floatNone: 'Nessun posizionamento',
+        shapeRounded: 'Shape: Rounded',
+        shapeCircle: 'Shape: Circle',
+        shapeThumbnail: 'Shape: Thumbnail',
+        shapeNone: 'Shape: None',
         dragImageHere: 'Trascina qui un\'immagine',
+        dropImage: 'Drop image or Text',
         selectFromFiles: 'Scegli dai Documenti',
+        maximumFileSize: 'Maximum file size',
+        maximumFileSizeError: 'Maximum file size exceeded.',
         url: 'URL dell\'immagine',
         remove: 'Rimuovi immagine'
       },
@@ -93,11 +102,45 @@
         textFormatting: 'Formattazione testo',
         action: 'Azioni',
         paragraphFormatting: 'Formattazione paragrafo',
-        documentStyle: 'Stili'
+        documentStyle: 'Stili',
+        extraKeys: 'Extra keys'
+      },
+      help: {
+        'insertParagraph': 'Insert Paragraph',
+        'undo': 'Undoes the last command',
+        'redo': 'Redoes the last command',
+        'tab': 'Tab',
+        'untab': 'Untab',
+        'bold': 'Set a bold style',
+        'italic': 'Set a italic style',
+        'underline': 'Set a underline style',
+        'strikethrough': 'Set a strikethrough style',
+        'removeFormat': 'Clean a style',
+        'justifyLeft': 'Set left align',
+        'justifyCenter': 'Set center align',
+        'justifyRight': 'Set right align',
+        'justifyFull': 'Set full align',
+        'insertUnorderedList': 'Toggle unordered list',
+        'insertOrderedList': 'Toggle ordered list',
+        'outdent': 'Outdent on current paragraph',
+        'indent': 'Indent on current paragraph',
+        'formatPara': 'Change current block\'s format as a paragraph(P tag)',
+        'formatH1': 'Change current block\'s format as H1',
+        'formatH2': 'Change current block\'s format as H2',
+        'formatH3': 'Change current block\'s format as H3',
+        'formatH4': 'Change current block\'s format as H4',
+        'formatH5': 'Change current block\'s format as H5',
+        'formatH6': 'Change current block\'s format as H6',
+        'insertHorizontalRule': 'Insert horizontal rule',
+        'linkDialog.show': 'Show Link Dialog'
       },
       history: {
         undo: 'Annulla',
         redo: 'Ripristina'
+      },
+      specialChar: {
+        specialChar: 'SPECIAL CHARACTERS',
+        select: 'Select Special characters'
       }
     }
   });
